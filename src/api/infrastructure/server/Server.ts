@@ -1,0 +1,40 @@
+import { Application } from "express";
+import ServerProvider from "../adapter/api/provider/ServerProvider";
+import AbstractRouter from "../../domain/abstracts/AbstractRouter";
+import express from "express";
+import path from "path";
+
+export default class Server {
+    private readonly app: Application
+
+    constructor(
+        private readonly env: ServerProvider,
+       private readonly routers: AbstractRouter[]
+    ){
+        this.app = express()
+        this.configure()
+        this.static()
+        this.routes()
+    }
+
+    readonly routes = (): void => {
+        this.routers.forEach(router => {
+            router.attach(this.app)
+        })
+    }
+    readonly configure = (): void => {
+        this.app.use(express.json())
+        this.app.use(express.urlencoded({ extended: true }))
+    }
+
+    readonly static = (): void => {
+        this.app.use(express.static(path.join(__dirname, this.env.STATIC_DIR())))
+    }
+
+    readonly start = (): void => {
+        const port = this.env.PORT() 
+        this.app.listen(port, () => {
+            console.log(`Server running on http://${this.env.HOST()}:${port}`)
+        })
+    }        
+}

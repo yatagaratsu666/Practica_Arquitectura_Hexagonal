@@ -1,0 +1,35 @@
+[
+  {
+    "fechaReporte": "2025-09-04",
+    "movimientos": [
+      {
+        "usuarioEmail": "juan.perez@movieupb.com",
+        "codigoProducto": "PROYECTOR-X1",
+        "tipoMovimiento": "ENTRADA",
+        "timestamp": "2025-09-04T09:05:00Z",
+        "usuarioId": "uid-op-456"
+      },
+      {
+        "usuarioEmail": "juan.perez@movieupb.com",
+        "codigoProducto": "BLURAY-C-007",
+        "tipoMovimiento": "SALIDA",
+        "timestamp": "2025-09-04T10:20:30Z",
+        "usuarioId": "uid-op-456"
+      },
+      {
+        "usuarioEmail": "maria.lopez@movieupb.com",
+        "codigoProducto": "SOUNDSYS-51",
+        "tipoMovimiento": "ENTRADA",
+        "timestamp": "2025-09-04T11:15:00Z",
+        "usuarioId": "uid-op-456"
+      },
+      {
+        "usuarioEmail": "juan.perez@movieupb.com",
+        "codigoProducto": "PROYECTOR-X1",
+        "tipoMovimiento": "SALIDA",
+        "timestamp": "2025-09-04T14:30:00Z",
+        "usuarioId": "uid-op-456"
+      }
+    ]
+  }
+]

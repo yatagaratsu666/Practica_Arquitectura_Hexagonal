@@ -1,0 +1,38 @@
+[
+  {
+    "id": "uid-op-123",
+    "names": "Juan",
+    "surnames": "Perez",
+    "role": "inventory_operator",
+    "email": "juan.perez@movieupb.com",
+    "passwordHash": "$2a$12$d3i/bxCrSitkaZ.NywumQO89ZyxMd/QPjoAgUd7rap5kPjdWarwg6",
+    "createdAt": "09-09-2025"
+  },
+  {
+    "id": "uid-op-456",
+    "names": "Maria",
+    "surnames": "Lopez",
+    "role": "inventory_manager",
+    "email": "maria.lopez@movieupb.com",
+    "passwordHash": "$2a$10$My9QSSMZHLKg5PjQDJQvJexmKOG.qfZ8/c1ISenCVj6o0ermt89hW",
+    "createdAt": "09-09-2025"
+  },
+  {
+    "id": "uid-op-789",
+    "names": "Hatsune",
+    "surnames": "Miku",
+    "role": "administrator",
+    "email": "hatsune.miku@movieupb.com",
+    "passwordHash": "$2a$10$My9QSSMZHLKg5PjQDJQvJexmKOG.qfZ8/c1ISenCVj6o0ermt89hW",
+    "createdAt": "09-09-2025"
+  },
+    {
+    "id": "uid-op-789",
+    "names": "idk",
+    "surnames": "Miku",
+    "role": "Desconocido",
+    "email": "idk.miku@email.com",
+    "passwordHash": "$2a$10$My9QSSMZHLKg5PjQDJQvJexmKOG.qfZ8/c1ISenCVj6o0ermt89hW",
+    "createdAt": "09-09-2025"
+  }
+]
