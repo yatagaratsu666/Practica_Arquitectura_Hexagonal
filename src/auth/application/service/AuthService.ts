@@ -1,4 +1,3 @@
-import bcrypt from "bcrypt";
 import UserRepositoryPort from "../../domain/port/driven/adapter/repository/UserRepositoryPort";
 import User from "../../domain/model/user/User";
 import NullUser from "../../domain/model/user/NullUser";

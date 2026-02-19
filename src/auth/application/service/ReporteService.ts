@@ -1,4 +1,3 @@
-import JsonReportDBC from "../../../shared/infrastructure/dbc/reports/ReportDBC"
 import ReporteServiceInterface from "../../domain/interfaces/ReporteServiceInterface"
 import JsonReportRepositoryPort from "../../domain/port/driven/adapter/repository/JsonReportRepositoryPort"
 
